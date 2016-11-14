@@ -13,6 +13,7 @@
 		52C51D001DD99E7000A3BB0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52C51CFE1DD99E7000A3BB0C /* Main.storyboard */; };
 		52C51D021DD99E7000A3BB0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52C51D011DD99E7000A3BB0C /* Assets.xcassets */; };
 		52C51D051DD99E7000A3BB0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52C51D031DD99E7000A3BB0C /* LaunchScreen.storyboard */; };
+		52C51D0F1DD99E9700A3BB0C /* YSNativeAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C51D0E1DD99E9700A3BB0C /* YSNativeAPI.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		52C51D011DD99E7000A3BB0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52C51D041DD99E7000A3BB0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52C51D061DD99E7000A3BB0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52C51D0D1DD99E9700A3BB0C /* YSNativeAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSNativeAPI.h; sourceTree = "<group>"; };
+		52C51D0E1DD99E9700A3BB0C /* YSNativeAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSNativeAPI.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		52C51CF41DD99E7000A3BB0C /* YSNativeAPIDemo */ = {
 			isa = PBXGroup;
 			children = (
+				52C51D0C1DD99E9700A3BB0C /* NativeAPI */,
 				52C51CF81DD99E7000A3BB0C /* AppDelegate.h */,
 				52C51CF91DD99E7000A3BB0C /* AppDelegate.m */,
 				52C51CFB1DD99E7000A3BB0C /* ViewController.h */,
@@ -77,6 +81,15 @@
 				52C51CF61DD99E7000A3BB0C /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52C51D0C1DD99E9700A3BB0C /* NativeAPI */ = {
+			isa = PBXGroup;
+			children = (
+				52C51D0D1DD99E9700A3BB0C /* YSNativeAPI.h */,
+				52C51D0E1DD99E9700A3BB0C /* YSNativeAPI.m */,
+			);
+			path = NativeAPI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52C51CFD1DD99E7000A3BB0C /* ViewController.m in Sources */,
+				52C51D0F1DD99E9700A3BB0C /* YSNativeAPI.m in Sources */,
 				52C51CFA1DD99E7000A3BB0C /* AppDelegate.m in Sources */,
 				52C51CF71DD99E7000A3BB0C /* main.m in Sources */,
 			);
